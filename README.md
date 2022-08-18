@@ -1,1 +1,1 @@
-# Vite-Reat-TS-Redux
+# Vite-React-TS-Redux
