@@ -11,10 +11,9 @@ const Layout = (props:layoutProps) => {
  <div>
    <Counter  />
    <Counter isAsync />
-
    <hr />
   </div>
-  <AshForm data={props} />
+  <AshForm />
 </>
   )
 }

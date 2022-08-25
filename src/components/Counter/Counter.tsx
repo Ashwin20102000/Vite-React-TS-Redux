@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import {decremented, incremented, reset } from '../../redux/counterSlice';
+import "../Layout/Layout.scss"
 interface counterProps {
   isAsync?:boolean;
 } 

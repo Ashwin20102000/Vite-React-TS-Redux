@@ -20,8 +20,8 @@ function Card({details}:cardProps)  {
  ]
   return (
          <div className="card">
-        <div className="card-header">User Details</div>
-      <div className="card-body">
+        <div className="card-header border">User Details</div>
+      <div className="card-body border">
         <div className="d-flex justify-content-between">
           <div>      
               <CardFields data={{key:keys[0],value:details.firstName}} />
