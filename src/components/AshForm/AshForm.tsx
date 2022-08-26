@@ -5,11 +5,13 @@ import StateTransfer from '../StateTransfer/stateTransfer';
 //   data:{trigger:boolean;
 //   setTrigger:(trigger:boolean)=>void}
 // }
+
 import { addState } from '../../redux/formSlice';
+import { FormDataInterface } from "../../interfaces/formdata.interface";
 const AshForm = () => {
   const state = useSelector((state:any)=>state.form.value)
-  const [formData,setFormData] = useState(state);
-  const [trigger,setTrigger] = useState(false);
+  const [formData,setFormData] = useState<FormDataInterface>(state);
+  const [trigger,setTrigger] = useState<boolean>(false);
   const setCountry = (country:string)=>{
     setFormData({
       ...formData,

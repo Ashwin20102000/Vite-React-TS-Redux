@@ -3,7 +3,6 @@ import './App.css'
 import { store as createStore} from './redux/store';
 import { Provider } from 'react-redux';
 import StateTransfer from './components/StateTransfer/stateTransfer';
-import { useState } from 'react';
 import { configs } from './config';
 import Info from './components/InfoComponent/Info';
 import Home from './components/Home/Home';
